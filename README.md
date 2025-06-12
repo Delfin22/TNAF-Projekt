@@ -1,12 +1,13 @@
-# React + Vite
+Aplikacja GOMOV. jest prostym serwisem pozwalającym na wyszukiwanie filmów.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Wykorzystane technologie:
 
-Currently, two official plugins are available:
+- Bezpłatne API OMDb - wykorzystane, ponieważ już kiedyś z niego korzystałem i to pierwsze co przyszło mi do głowy
+- React Router Dom - biblioteka wykorzystana do navigacji pomięcy stronami - naturalny wybór
+- Moduły css - intuicyjne podejście, czystość w kodzie
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instrukcja uruchomienia
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- npm i
+- npm run dev
+  git a

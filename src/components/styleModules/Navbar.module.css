@@ -1,0 +1,90 @@
+.navbarWrapper {
+  width: 100%;
+  background-color: rgb(17, 1, 27);
+}
+
+.navbarContent {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  white-space: nowrap;
+}
+
+.logoWrapper {
+  text-decoration: none;
+  font-size: 30px;
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.logoHighlight {
+  color: rgb(123, 0, 224);
+}
+
+.buttonsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgb(182, 182, 182);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(17, 1, 27);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobileBtn {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+
+.mobileBtn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .desktopMenu {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

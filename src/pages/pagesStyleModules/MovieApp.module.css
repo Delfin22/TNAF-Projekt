@@ -1,0 +1,33 @@
+.movieAppWrapper {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.searchBtn {
+  padding: 9px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchBtn:hover {
+  background-color: #ff00ff;
+}
+.moviesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}

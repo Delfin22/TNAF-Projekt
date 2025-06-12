@@ -1,0 +1,7 @@
+.aboutWrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100wv;
+  height: 92vh;
+}

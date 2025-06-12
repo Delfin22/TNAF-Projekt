@@ -1,0 +1,22 @@
+.textDisplayer {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 600px;
+  width: 90%;
+  margin: 40px auto;
+  color: #f1f1f1;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .textDisplayer {
+    padding: 30px 20px;
+    margin: 20px auto;
+    font-size: 1rem;
+  }
+}
