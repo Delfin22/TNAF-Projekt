@@ -5,7 +5,7 @@ function Contact() {
     <div className={styles.contactWrapper}>
       <TextDisplayer>
         Masz pytania, sugestie albo zauważyłeś błąd? Daj znać! 📧 Email:
-        kontakt@movieapp.pl 💬 Formularz kontaktowy – już wkrótce! Cenimy każdy
+        kontakt@gomov.pl 💬 Formularz kontaktowy – już wkrótce! Cenimy każdy
         feedback i staramy się stale ulepszać GoMov. Dzięki za odwiedziny! t
       </TextDisplayer>
     </div>

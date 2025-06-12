@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className={styles.homeWrapper}>
       <TextDisplayer>
-        Witaj w MovieApp – Twoim osobistym przewodniku po świecie kina! Wyszukuj
+        Witaj w GoMov – Twoim osobistym przewodniku po świecie kina! Wyszukuj
         filmy, sprawdzaj obsadę, opisy, oceny i odkrywaj nowości dzięki OMDb
         API. Niezależnie od tego, czy szukasz klasyki, nowości, czy zapomnianych
         perełek – jesteś w dobrym miejscu.

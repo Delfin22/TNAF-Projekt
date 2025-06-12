@@ -4,7 +4,7 @@ function About() {
   return (
     <div className={styles.aboutWrapper}>
       <TextDisplayer>
-        MovieApp to aplikacja stworzona z miłości do filmu i technologii.
+        GoMov. to aplikacja stworzona z miłości do filmu i technologii.
         Korzystamy z bazy OMDb API, by dostarczyć Ci szybki dostęp do informacji
         o tysiącach filmów i seriali – zupełnie za darmo. Naszym celem jest
         stworzenie prostego i intuicyjnego narzędzia do eksplorowania świata
