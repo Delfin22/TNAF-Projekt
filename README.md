@@ -10,4 +10,3 @@ Instrukcja uruchomienia
 
 - npm i
 - npm run dev
-  git a
